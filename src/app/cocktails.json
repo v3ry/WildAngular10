@@ -1,0 +1,17 @@
+{
+    "cocktail1": {
+        "name": "Sex on the beach",
+        "price": 10,
+        "img": "relative-path-to-the-picture"
+    },
+    "cocktail2": {
+        "name": "Marguarita",
+        "price": 13,
+        "img": "relative-path-to-the-picture"
+    },
+    "cocktail3": {
+        "name": "Martini",
+        "price": 8,
+        "img": "relative-path-to-the-picture"
+    }
+}

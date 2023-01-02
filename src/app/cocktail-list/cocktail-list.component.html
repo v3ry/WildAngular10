@@ -1,9 +1,9 @@
 <p>cocktail-list works!</p>
-<ul class="heroes">
-    <li *ngFor="let hero of cocktails">
-        <span class="badge">{{hero.name}}</span>
-        <span class="name">{{hero.price}}</span>
-        <span class="name">{{hero.image}}</span>
+<ul *ngIf="cocktails" class="heroes">
+    <li *ngFor="let cocktail of cocktails ">
+        <span class="badge">{{cocktail.name}}</span>
+        <span class="name">{{cocktail.price}}</span>
+        <span class="name">{{cocktail.img}}</span>
     </li>
   </ul>
 <h1>Yeah</h1>
